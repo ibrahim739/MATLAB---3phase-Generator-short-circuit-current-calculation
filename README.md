@@ -2,7 +2,7 @@
 MATLAB script that calculates and visualizes a bolted three-phase Generator short-circuit current.
 The Total short-circuit current is composed of Iac and Idc components.
 
-%% The inputs to the function are:
+The inputs to the function are:
 
 - S which is the base apparent power in VA
 - Ug is the Voltage in V
