@@ -1,3 +1,4 @@
+# MATLAB - Three Phase Generator short circuit calculation and visualization
 MATLAB script that calculates and visualizes a bolted three-phase Generator short-circuit current.
 The Total short-circuit current is composed of Iac and Idc components.
 
