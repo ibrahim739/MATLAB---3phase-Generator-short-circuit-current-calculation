@@ -43,8 +43,17 @@ function threephasesc
 % The generator is operating at 5% above rated voltage and at no-load when a bolted 
 % three-phase short circuit occurs on the load side of the breaker.
 
-% Thus, you call the function like this:
-% threephasesc(500000000,20000,0.05,60,0.15,0.24,1.1,0.035,2,0.2)
+% Thus, the parameters to enter are as following
+# S = 500000000;
+% Ug = 20000;
+% percentageEg = 0.05;
+% f = 60;
+% Xsecond = 0.15;
+% Xprime = 0.24;
+% Xd = 1.1;
+% Tsecond = 0.035;
+% Tprime = 2;
+% Ta = 0.2;
 %-----------------------------------------------------------------------------------------------------
 
 S = input('Please enter the Generator apparent power S  in VA: ');
